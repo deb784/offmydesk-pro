@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Allow AI crawlers to access the site for search citation
+User-agent: GPTBot
+Allow: /
+Disallow: /thank-you.html
+Disallow: /privacy.html
+Disallow: /terms.html
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# LLMs.txt for AI discoverability
+# https://offmydesk.pro/llms.txt
+
+Sitemap: https://offmydesk.pro/sitemap.xml
