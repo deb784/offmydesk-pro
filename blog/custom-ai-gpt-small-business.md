@@ -1,10 +1,14 @@
 ---
-title: What a Custom AI GPT Actually Does for Your Small Business (And Why 99% Don't Have One Yet)
+title: What a Custom AI GPT Actually Does for Your Small Business (And Why 99%
+  Don't Have One Yet)
 date: 2026-04-08
 category: AI + Automation
-description: A Custom GPT built on your brand voice and internal knowledge is one of the most practical AI tools available — and most small businesses still don't have one. Here is what it actually does.
+description: A Custom GPT built on your brand voice and internal knowledge is
+  one of the most practical AI tools available — and most small businesses still
+  don't have one. Here is what it actually does.
 author: Deb Shimojima
 ---
+![Custom AI GPT](/images/blog/what-a-custom-ai-gpt-actually-does-for-your-small-business.png "What a Custom AI GPT Actually Does for Your Small Business (And Why 99% Don't Have One Yet)")
 
 The conversation about AI in small business has shifted from "should I use it" to "how do I actually make it work for my specific situation." And that is the right question. Generic AI tools are useful. A Custom GPT built on your business — your voice, your knowledge, your processes — is something else entirely.
 
