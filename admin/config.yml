@@ -4,15 +4,39 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "images/blog"
-public_folder: "/images/blog"
+media_folder: images/blog
+public_folder: /images/blog
 
 site_url: https://offmydesk.pro
 
 logo_url: /images/logo-dark.png
 
 collections:
-  - name: "posts"
-    label: "Blog Posts"
-    label_singular: "Blog Post"
-    folder: "
+  - name: posts
+    label: Blog Posts
+    label_singular: Blog Post
+    folder: blog
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+      - label: Category
+        name: category
+        widget: string
+      - label: Description
+        name: description
+        widget: text
+      - label: Author
+        name: author
+        widget: string
+        default: Deb Shimojima
+      - label: Body
+        name: body
+        widget: markdown
