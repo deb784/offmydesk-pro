@@ -2,53 +2,17 @@ backend:
   name: git-gateway
   branch: main
 
-# Allow editorial workflow (draft → review → publish)
 publish_mode: editorial_workflow
 
-# Where uploaded images go
 media_folder: "images/blog"
 public_folder: "/images/blog"
 
-# Site URL for previews
-site_url: https://www.offmydesk.pro
+site_url: https://offmydesk.pro
 
-# Logo shown in the CMS dashboard
 logo_url: /images/logo-dark.png
 
 collections:
   - name: "posts"
     label: "Blog Posts"
     label_singular: "Blog Post"
-    folder: "_posts"
-    create: true
-    slug: "{{slug}}"
-    preview_path: "blog/{{slug}}.html"
-    fields:
-      - { label: "Title", name: "title", widget: "string", hint: "Your post headline — make it specific and useful" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Category", name: "category", widget: "select",
-          options: ["AI + Automation", "Operations", "Marketing + Content", "Business Systems", "LinkedIn Strategy"],
-          default: "Operations" }
-      - { label: "Summary", name: "summary", widget: "string",
-          hint: "1–2 sentence description shown on the blog index card. Keep it under 160 characters for SEO." }
-      - { label: "SEO Meta Description", name: "meta_description", widget: "string",
-          hint: "Shown in Google search results. Keep it between 120–160 characters.",
-          pattern: [".{50,160}", "Must be between 50 and 160 characters"] }
-      - { label: "Featured Image", name: "featured_image", widget: "image", required: false,
-          hint: "Optional. Upload a photo for this post (JPG or PNG, landscape preferred)." }
-      - { label: "Featured Image Alt Text", name: "image_alt", widget: "string", required: false }
-      - { label: "Body", name: "body", widget: "markdown",
-          hint: "Write your full post here. Use ## for section headings, **bold** for emphasis." }
-      - { label: "Author", name: "author", widget: "string", default: "Deb Shimojima" }
-      - { label: "Tags", name: "tags", widget: "list", required: false,
-          hint: "Optional keywords separated by commas (e.g. AI, operations, small business)" }
-
-  - name: "pages"
-    label: "Site Pages"
-    files:
-      - label: "Homepage Hero Text"
-        name: "homepage"
-        file: "_data/homepage.yml"
-        fields:
-          - { label: "Hero Headline", name: "headline", widget: "string" }
-          - { label: "Hero Subtext", name: "subtext", widget: "text" }
+    folder: "
