@@ -29,4 +29,4 @@ Allow: /
 # LLMs.txt for AI discoverability
 # https://offmydesk.pro/llms.txt
 
-Sitemap: https://offmydesk.pro/sitemap.xml
+Sitemap: https://www.offmydesk.pro/sitemap.xml
